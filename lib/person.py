@@ -3,5 +3,10 @@
 class Person:
     # Class body goes here
 
-    #Instance method definition
-    pass
+    def talk(self):
+        # Person.talk() prints "Hello World!"
+        print("Hello World!")
+
+    def walk(self):
+        # Person.walk() prints "The person is walking."
+        print("The person is walking.")
